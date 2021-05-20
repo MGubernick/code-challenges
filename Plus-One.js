@@ -57,3 +57,7 @@
   }
   return digits
 };
+
+
+// ALT: 
+// const plusOne = digits => String(BigInt(digits.join('')) + BigInt(1)).split('').map(Number)
