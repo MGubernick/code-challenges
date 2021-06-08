@@ -36,7 +36,7 @@ class HashTable {
   }
 }
 
-//create object of type hash table
+//create object of the type 'hash table'
 const ht = new HashTable();
 //add data to the hash table ht
 ht.add("Canada", "300");
