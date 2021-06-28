@@ -15,7 +15,7 @@ var singleNumber = function(nums) {
     }
   }
   
-  // look at the hm and see which number only occurred once - this is answer 
+  // look at the hm and see which number only occured once - this is answer 
   for (const [key, value] of Object.entries(hm)) {
     if (value === 1) {
       answer = key
