@@ -87,3 +87,23 @@ LIKE is not case sensitive. ‘Batman’ and ‘Man of Steel’ will both appear
 
 - GROUP BY is a clause used with aggregate functions to combine data from one or more columns.
 HAVING limit the results of a query based on an aggregate property.
+
+---------------------------------------------------------------------------------------------------------------------
+
+- When we perform a simple JOIN (often called an inner join) our result only includes rows that match our ON condition
+
+- A left join will keep all rows from the first table, regardless of whether there is a matching row in the second table.
+
+- JOIN will combine rows from different tables if the join condition is true.
+
+- LEFT JOIN will return every row in the left table, and if the join condition is not met, NULL values are used to fill in the columns from the right table.
+
+- Primary key is a column that serves a unique identifier for the rows in the table.
+
+- Foreign key is a column that contains the primary key to another table.
+
+- CROSS JOIN lets us combine all rows of one table with all rows of another table.
+
+- UNION stacks one dataset on top of another.
+
+- WITH allows us to define one or more temporary tables that can be used in the final query.
